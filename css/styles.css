@@ -11,7 +11,14 @@ h1 {
   font-size: 3rem;
   line-height: 1.5;
 }
-
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+p{
+  color: #8f8f8f;
+}
 #title {
   background-color: #ff4c68;
   color: #FFF;
@@ -50,4 +57,22 @@ h1 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Features */
+
+#features{
+  padding: 7% 15%;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
 }
